@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Simplest example with react-leaflet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is just a project example to learn how to use Leaflet with React.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+Read the links in the acknowlegements section bellow to get an idea about Leaflet.
 
-### `npm start`
+Download links:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+From Github: https://github.com/tcrurav/react-leaflet-example.git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Prerequisites
 
-### `npm test`
+You need a working environment with:
+* [Git](https://git-scm.com) - You can install it from https://git-scm.com/downloads.
+* [Node.js](https://nodejs.org) - Install node.js from https://nodejs.org/es/download/. It's advisable to install the LTS version.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## General Installation instructions
 
-### `npm run build`
+The best option to start with this project is cloning it in your PC:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+git clone https://github.com/tcrurav/react-leaflet-example.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Once you have cloned the project customize your environment files.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Now install all dependencies.
 
-### `npm run eject`
+```
+cd react-leaflet-example
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+And finally run the project.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+cd react-leaflet-example
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Enjoy!!!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Built With
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* [Visual Studio Code](https://code.visualstudio.com/) - The Editor used in this project
+* [Node.js](https://nodejs.org/) - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+* [leaflet](https://react-leaflet.js.org/docs/start-introduction/) - an open-source JavaScript library
+for mobile-friendly interactive maps.
+* [react-leaflet](https://react-leaflet.js.org/docs/start-introduction/) - React Leaflet provides bindings between React and Leaflet. It does not replace Leaflet, but leverages it to abstract Leaflet layers as React components.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Acknowledgments
 
-### Code Splitting
+* https://leafletjs.com/examples/quick-start/. Official Leaflet website.
+* https://react-leaflet.js.org/docs/start-installation/. Official react-leaflet website.
+* https://gist.github.com/PurpleBooth/109311bb0361f32d87a2. A very complete template for README.md files.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
